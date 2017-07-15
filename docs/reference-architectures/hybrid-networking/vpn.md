@@ -93,8 +93,9 @@ Select the Azure VPN gateway SKU that most closely matches your throughput requi
 | SKU | VPN Throughput | Max IPSec Tunnels |
 | --- | --- | --- |
 | Basic |100 Mbps |10 |
-| Standard |100 Mbps |10 |
-| High Performance |200 Mbps |30 |
+| VpnGw1 |500 Mbps |30 |
+| VpnGw2 |1 Gbps |30 |
+| VpnGw3 |1.25 Gbps |30 |
 
 > [!NOTE]
 > The Basic SKU is not compatible with Azure ExpressRoute. You can [change the SKU][changing-SKUs] after the gateway has been created.
